@@ -1,0 +1,77 @@
+body {
+  background-color: #F2F4F7;
+}
+
+.login-main {
+  width: 460px;
+  border-radius: 6px;
+  margin: 200px auto;
+  padding: 65px 0 30px 0;
+  background-color: #ffffff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  position: relative;
+  .head-logo {
+    position: absolute;
+    top: -46px;
+    //left: 116px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .main-content {
+    width: 80%;
+    margin: 8px auto;
+    input, button {
+      width: 100%;
+      outline: none;
+      border: none;
+      margin: 16px 0;
+      box-shadow: none;
+      background: none;
+    }
+
+
+    .input-box {
+      width: 100%;
+      height: 46px;
+      border-bottom: 1px solid #e5e5e5;
+      .input-key {
+        background-color: transparent;
+        font-size: 1rem;
+        &::-webkit-input-placeholder {
+          /* placeholder颜色  */
+          color: #cacaca;
+          /* placeholder字体大小  */
+          font-size: 0.8rem;
+          /* placeholder位置  */
+          text-align: left;
+        }
+      }
+    }
+    .btn-login {
+      font-size: 1.5rem;
+      color: white;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 6px;
+      cursor: pointer;
+      background-color: #42a5f5;
+    }
+    .btn-off {
+      color: #a0a0a0;
+      background-color: #e5e5e5;
+
+    }
+  }
+  .copyright {
+    width: 100%;
+    position: absolute;
+    bottom: -35px;
+    text-align: center;
+    z-index: 5;
+  }
+}
+
+
+

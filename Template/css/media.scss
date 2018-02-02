@@ -1,16 +1,33 @@
-@charset "UTF-8";
-/* media */
+﻿/* media */
+
 /* 窗口宽度<960,设计宽度=768 */
+@media screen and (max-width: 959px) {
+
+}
+
 /* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width: 767px) {
+
+}
+
 /* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width: 639px) {
+
+}
+
 /* 窗口宽度<465 */
 @media screen and (max-width: 464px) {
   .login-main {
     width: 98%;
     margin: 60px auto;
-  }
-  .login-main .head-logo {
-    position: absolute;
+    .head-logo {
+      position: absolute;
+      //left: 90px;
+    }
   }
 }
+
 /* 窗口宽度<480,设计宽度=320 */
+@media screen and (max-width: 479px) {
+
+}
