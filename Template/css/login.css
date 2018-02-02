@@ -38,7 +38,7 @@ body {
 }
 .login-main .main-content .input-box .input-key {
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .login-main .main-content .input-box .input-key::-webkit-input-placeholder {
   /* placeholder颜色  */

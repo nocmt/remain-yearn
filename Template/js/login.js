@@ -29,7 +29,7 @@ $(document).ready(function () {
     // 登录回车事件
     $(window).keydown(function (event) {
         if (event.keyCode === 13) {
-            let key = $(this).val();
+            let key = $("#input-key").val();
             if (key) {
                 sendkey();
             } else {
