@@ -40,8 +40,22 @@ body {
   float: left;
 }
 .index-body .index-main {
-  margin: 50px 0;
+  width: 95%;
+  margin: 50px auto;
   height: auto;
+  background: none;
+}
+.index-body .index-main .post-works {
+  width: 100%;
+  margin: 8px auto;
+  overflow: hidden;
+}
+.index-body .index-main .post-works .post {
+  width: 48.4%;
+  margin: 6px;
+  height: 250px;
+  background-color: #ffffff;
+  float: left;
 }
 
 /*.index-header h1{*/
